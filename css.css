@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Tapestry&display=swap');
+*{
+  font-family: 'Tapestry', cursive;
+  color:#678072;
+}
+body {
+  margin: 0px;
+}
+a {
+  text-decoration:none;
+}
+ul{
+  list-style-type: none;
+padding: 0px;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+  "header header header header"
+  "nav article article article"
+  "nav article article article"
+  "nav article article article"
+  "footer footer footer footer";
+  background:#CFFFE5;
+}
+.header {
+  grid-area: header;
+  text-align:center;
+  font-size:4rem;
+  padding-bottom:20px;
+  border-bottom: solid 1px black;
+}
+.footer {
+  grid-area: footer;
+  text-align: center;
+  border-top: dotted 1px white;
+}
+.nav  {
+  grid-area: nav;
+  border-right: solid 1px black;
+  text-align: center;
+}
+.article{
+  grid-area: article;
+}
+.nav ul li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding:30px 10px;
+}
+.article h2{
+  text-align: center;
+  margin-bottom: 50px
+}
+.article h3{
+  text-align: center;
+}
+.article div ul{
+  text-align: center;
+}
+.article div ul li{
+  padding: 10px;
+}
