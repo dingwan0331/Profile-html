@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Tapestry&display=swap');
+a {
+animation: fadeIn ease 8s;
+-webkit-animation: fadeIn ease 8s;
+-moz-animation: fadeIn ease 8s;
+-o-animation: fadeIn ease 8s;
+-ms-animation: fadeIn ease 8s;
+}
+@keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-moz-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-webkit-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-o-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-ms-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+
+}
+body{
+  background:radial-gradient(yellow, red, brown);
+}
+a {
+  color:white;
+  text-decoration:none;
+  font-size:80px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Tapestry', cursive;
+
+}
+div {
+  position: absolute;;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
