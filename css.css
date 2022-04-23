@@ -3,7 +3,6 @@
   font-family: 'Tapestry', 'East Sea Dokdo',cursive;
   color:#6B3C22;
 }
-
 body {
   margin: 0px;
 }
@@ -43,6 +42,7 @@ ul{
   border-right: solid 1px #6B3C22;
   text-align: center;
   font-size: 2rem;
+  width: 250px;
 }
 .article{
   grid-area: article;
@@ -62,8 +62,7 @@ ul{
   margin-bottom: 0rem;
   margin-top:0rem;
 }
-.article div{
-}
+
 .article div ul li{
   padding: 0.2rem;
   font-size: 2rem;
@@ -71,17 +70,17 @@ ul{
 .head2{
   font-size: 3rem;
   margin-bottom: 1rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
   margin-top: 1rem;
 }
 .main2 {
   font-size: 2rem;
   padding: 0rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
   margin-bottom: 3rem;
 }
 .none{
-  margin-left: 2rem;
+  margin-left:
 }
 /*.another{
   background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
