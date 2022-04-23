@@ -75,13 +75,18 @@ ul{
   margin-top: 1rem;
 }
 .main2 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   padding: 0rem;
   margin-left: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .none{
   margin-left: 2rem;
 }
-.another{
-}
+/*.another{
+  background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+}*/
