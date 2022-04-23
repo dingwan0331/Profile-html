@@ -51,20 +51,20 @@ animation: fadeIn ease 8s;
 }
 
 }
-body{
-  background:radial-gradient(yellow, red, brown);
+body {
+  margin:0;
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074136_1280.jpg");
 }
 a {
-  color:white;
+  color:#6B3C22;
   text-decoration:none;
-  font-size:80px;
+  font-size:calc(0.75em + 9vw);
   text-align: center;
   display: inline-block;
   font-family: 'Tapestry', cursive;
-
 }
 div {
-  position: absolute;;
+  position: absolute;
   left:50%;
   top:50%;
   transform:translate(-50%,-50%);
