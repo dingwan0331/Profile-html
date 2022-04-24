@@ -3,6 +3,9 @@
   font-family: 'Tapestry', 'East Sea Dokdo',cursive;
   color:#6B3C22;
 }
+div {
+  margin: 0px;
+}
 body {
   margin: 0px;
 }
@@ -23,6 +26,7 @@ ul{
   "footer footer footer footer";
   background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074136_1280.jpg");
   font-size:calc(0.75em + 1vw);
+
 }
 .header {
   grid-area: header;
@@ -50,7 +54,6 @@ ul{
   overflow-y:scroll;
 }
 .nav ul li {
-  list-style-type: none;
   padding:2.1rem 0rem;
 }
 .article h2{
@@ -64,7 +67,6 @@ ul{
 }
 
 .article div ul li{
-  padding: 0.2rem;
   font-size: 2rem;
 }
 .head2{
@@ -79,13 +81,3 @@ ul{
   margin-left: 0rem;
   margin-bottom: 3rem;
 }
-.none{
-  margin-left:
-}
-/*.another{
-  background-image: url("https://cdn.pixabay.com/photo/2018/05/26/18/06/dog-3431913_1280.jpg");
-  height: 600px;
-  width: 500px;
-  display: flex;
-  flex-direction: row-reverse;
-}*/
