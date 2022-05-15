@@ -45,8 +45,8 @@ ul{
   grid-area: nav;
   border-right: solid 1px #6B3C22;
   text-align: center;
+  margin-left: 0px;
   font-size: 2rem;
-  width: 250px;
 }
 .article{
   grid-area: article;
