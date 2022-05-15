@@ -81,7 +81,7 @@ ul{
   margin-left: 0rem;
   margin-bottom: 3rem;
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   .container {
     display: grid;
     grid-template-areas:
@@ -99,15 +99,23 @@ ul{
     text-align: center;
   }
   .nav ul {
+    margin: 0px;
     display: flex;
     flex-direction: row;
-    margin: 0px;
   }
   .nav {
+    grid-area: nav;
     border-bottom: solid 1px #6B3C22;
     font-size: 1.7rem;
   }
   .header{
     font-size: 4rem;
+    grid-area: header;
+  }
+  .footer{
+    grid-area: footer;
+  }
+  .article{
+    grid-area: article;
   }
 }
