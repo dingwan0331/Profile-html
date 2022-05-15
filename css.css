@@ -81,3 +81,33 @@ ul{
   margin-left: 0rem;
   margin-bottom: 3rem;
 }
+@media screen and (max-width: 540px) {
+  .container {
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "article article article article"
+    "article article article article"
+    "footer footer footer footer";
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074136_1280.jpg");
+    font-size:calc(0.75em + 1vw);
+  }
+  .nav ul li{
+    margin: 0px;
+    border-right:  1px dotted #6B3C22;
+    text-align: center;
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+  }
+  .nav {
+    border-bottom: solid 1px #6B3C22;
+    font-size: 1.7rem;
+  }
+  .header{
+    font-size: 4rem;
+  }
+}
